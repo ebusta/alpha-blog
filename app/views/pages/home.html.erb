@@ -1,40 +1,13 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-	<title>Test page for RoR Course</title>
+	<title>Alpha Blog Home</title>
 	<meta charset="UTF-8">
-	<style>
-	a:link{
-		color: rgb(255, 193, 236);
-	}
-	a:visited{
-		color: rgb(255, 193, 236);
-	}
-	a:hover{
-		color: rgb(238, 78, 67);
-	}
-	</style>
 </head>
 
-<body style="background-image:url('80s.jpg')">
-	<h1>WHADDUP</h1>
-	<%= link_to "Alpha Blog", articles_path %> 
-	<p>Get real <%=  link_to 'About', about_path %></p>
-	<a href="https://c9.io" title="Take me back" target="_blank">Go to C9</a>
-	<br>
-	<!--<a href="https://northmen-inc.com" target="_blank">
-		<img src="bass_guitar.jpg" alt="bass" width="480" height="318"/>
-	</a>-->
-	<%= link_to image_tag('bass_guitar.jpg'), 'https://northmen-inc.com' %>
-	<br>
-	<button style="background-color:rgba(11,13,164,0.8); color:#F62EC8;border:2px solid #FEF56E;">U no u wanna touch me</button>
-	<ol>
-		<li>Hey</li>
-		<li>Bud</li>
-	</ol>
-	<pre>
-Breh, I'm gonna    ...
-PRE
-	</pre>
+<body>
+	<h1>Home</h1>
+	<%= link_to "Alpha Blog", articles_path %> |
+	<%= link_to 'About', about_path %>
 <body>
 </html>
