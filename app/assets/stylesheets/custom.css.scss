@@ -24,6 +24,7 @@ $navbar-default-bg: #FFDA6C;
 .jumbotron {
   background-image: asset-url('jumbo_eighties.jpg');
   background-size: cover;
+  background-position: center;
   height: 550px;
 }
 
@@ -37,7 +38,13 @@ $navbar-default-bg: #FFDA6C;
 
 .btn-xlarge {
   font-size: 1.7em;
-  background-color: black;
+  background-color: #14117F;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
+.btn-xlarge:hover {
+  background-color: #F334D4;
 }
 
 footer {
